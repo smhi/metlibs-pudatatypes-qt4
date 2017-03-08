@@ -1,0 +1,15 @@
+Source: metlibs-common-pudatatypes
+Priority: optional
+Maintainer: Metapps Team <diana@met.no>
+Build-Depends:  debhelper (>= 9),
+ autoconf (>=2.61), automake (>= 1.10), libtool (>= 1.5),
+ libgtest-dev, pkg-config, libboost-dev
+Standards-Version: 3.9.2
+Section: libs
+
+Package: metlibs-pudatatypes-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}
+Description: pudatatypes.
+ metlibs pudatatypes.
